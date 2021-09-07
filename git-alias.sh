@@ -9,3 +9,6 @@ git config --global alias.l '-c color.ui=always log --pretty="%C(Yellow)%h %C(re
 
 # Full backup of the repo -- make sure to git pull first!
 git config --global alias.backup 'bundle create backup.bundle --all'
+
+# Change default branch to main
+git config --global init.defaultBranch main
